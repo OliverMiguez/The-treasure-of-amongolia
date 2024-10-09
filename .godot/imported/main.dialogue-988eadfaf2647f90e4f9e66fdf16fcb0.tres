@@ -1,0 +1,515 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_oji3r"]
+
+[resource]
+script = ExtResource("1_oji3r")
+using_states = PackedStringArray()
+titles = {
+"mother_conversation": "3"
+}
+character_names = PackedStringArray("Madre", "Tu")
+first_title = "3"
+lines = {
+"1": {
+"id": "1",
+"next_id": "3",
+"text": "mother_conversation",
+"type": &"title"
+},
+"12": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "12",
+"next_id": "13",
+"next_id_after": "29",
+"notes": "",
+"responses": PackedStringArray("12", "27"),
+"tags": PackedStringArray(),
+"text": "Esto no puede seguir asi",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Esto no puede seguir asi",
+"type": &"response"
+},
+"13": {
+"character": "Tu",
+"character_replacements": Array[Dictionary]([]),
+"id": "13",
+"next_id": "14",
+"notes": "",
+"parent_id": "12",
+"tags": PackedStringArray(),
+"text": "Esto no puede seguir asi mamá , no le daremos nuestro dinero",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Esto no puede seguir asi mamá , no le daremos nuestro dinero",
+"type": &"dialogue"
+},
+"14": {
+"character": "Madre",
+"character_replacements": Array[Dictionary]([]),
+"id": "14",
+"next_id": "15",
+"notes": "",
+"parent_id": "12",
+"tags": PackedStringArray(),
+"text": "Hijo pero si no entregamos nuestro dinero nos mataran",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Hijo pero si no entregamos nuestro dinero nos mataran",
+"type": &"dialogue"
+},
+"15": {
+"character": "Madre",
+"character_replacements": Array[Dictionary]([]),
+"id": "15",
+"next_id": "16",
+"notes": "",
+"parent_id": "12",
+"tags": PackedStringArray(),
+"text": "No quiero ver morir a otro de los nuestro",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "No quiero ver morir a otro de los nuestro",
+"type": &"dialogue"
+},
+"16": {
+"character": "Tu",
+"character_replacements": Array[Dictionary]([]),
+"id": "16",
+"next_id": "17",
+"notes": "",
+"parent_id": "12",
+"tags": PackedStringArray(),
+"text": "No me recuerdes la muerte de papá",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "No me recuerdes la muerte de papá",
+"type": &"dialogue"
+},
+"17": {
+"character": "Tu",
+"character_replacements": Array[Dictionary]([]),
+"id": "17",
+"next_id": "18",
+"notes": "",
+"parent_id": "12",
+"tags": PackedStringArray(),
+"text": "Si no actuamos ahora, quien nos va a salvar, tarde o temprano nos matararian igualmente",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Si no actuamos ahora, quien nos va a salvar, tarde o temprano nos matararian igualmente",
+"type": &"dialogue"
+},
+"18": {
+"character": "Madre",
+"character_replacements": Array[Dictionary]([]),
+"id": "18",
+"next_id": "19",
+"notes": "",
+"parent_id": "12",
+"tags": PackedStringArray(),
+"text": "Es verdad, pero quien nos puede salvar",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Es verdad, pero quien nos puede salvar",
+"type": &"dialogue"
+},
+"19": {
+"character": "Tu",
+"character_replacements": Array[Dictionary]([]),
+"id": "19",
+"next_id": "20",
+"notes": "",
+"parent_id": "12",
+"tags": PackedStringArray(),
+"text": "Nos tendremos que salvar a nosotros mismo",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Nos tendremos que salvar a nosotros mismo",
+"type": &"dialogue"
+},
+"20": {
+"character": "Madre",
+"character_replacements": Array[Dictionary]([]),
+"id": "20",
+"next_id": "21",
+"notes": "",
+"parent_id": "12",
+"tags": PackedStringArray(),
+"text": "En ese caso toma, la espada de tu padre, esto te ayudará a enfrentarte al enemigo",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "En ese caso toma, la espada de tu padre, esto te ayudará a enfrentarte al enemigo",
+"type": &"dialogue"
+},
+"21": {
+"character": "Tu",
+"character_replacements": Array[Dictionary]([]),
+"id": "21",
+"next_id": "22",
+"notes": "",
+"parent_id": "12",
+"tags": PackedStringArray(),
+"text": "Gracias mamá, yo me encargó de atacar y descubrir quién está al mando de todo esto, tu ve a pedir ayuda",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Gracias mamá, yo me encargó de atacar y descubrir quién está al mando de todo esto, tu ve a pedir ayuda",
+"type": &"dialogue"
+},
+"22": {
+"character": "Madre",
+"character_replacements": Array[Dictionary]([]),
+"id": "22",
+"next_id": "23",
+"notes": "",
+"parent_id": "12",
+"tags": PackedStringArray(),
+"text": "Ten mucho cuidado",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Ten mucho cuidado",
+"type": &"dialogue"
+},
+"23": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "23",
+"next_id": "24",
+"notes": "",
+"parent_id": "12",
+"tags": PackedStringArray(),
+"text": "Has recibido la espada de tu padre , tiene muchas muescas en la empuñadura , parece un tanto desgastada,",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Has recibido la espada de tu padre , tiene muchas muescas en la empuñadura , parece un tanto desgastada,",
+"type": &"dialogue"
+},
+"24": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "24",
+"next_id": "end",
+"notes": "",
+"parent_id": "12",
+"tags": PackedStringArray(),
+"text": "Para usarla presiona el botón E",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Para usarla presiona el botón E",
+"type": &"dialogue"
+},
+"27": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "27",
+"next_id": "28",
+"next_id_after": "29",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Donde esta el dinero ?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Donde esta el dinero ?",
+"type": &"response"
+},
+"28": {
+"character": "Madre",
+"character_replacements": Array[Dictionary]([]),
+"id": "28",
+"next_id": "29",
+"notes": "",
+"parent_id": "27",
+"tags": PackedStringArray(),
+"text": "Fijate en mi habitación",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Fijate en mi habitación",
+"type": &"dialogue"
+},
+"29": {
+"condition": {
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "global"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "found_money"
+}, {
+"type": "comparison",
+"value": "=="
+}, {
+"type": "variable",
+"value": "false"
+}, {
+"type": "colon"
+}])
+},
+"id": "29",
+"next_conditional_id": "38",
+"next_id": "30",
+"next_id_after": "41",
+"type": &"condition"
+},
+"3": {
+"character": "Madre",
+"character_replacements": Array[Dictionary]([]),
+"id": "3",
+"next_id": "4",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Hijo rápido ayudame",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Hijo rápido ayudame",
+"type": &"dialogue"
+},
+"30": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "30",
+"next_id": "31",
+"next_id_after": "32",
+"notes": "",
+"parent_id": "29",
+"responses": PackedStringArray("30"),
+"tags": PackedStringArray(),
+"text": "No encontre el dinero",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "No encontre el dinero",
+"type": &"response"
+},
+"31": {
+"character": "Tu",
+"character_replacements": Array[Dictionary]([]),
+"id": "31",
+"next_id": "32",
+"notes": "",
+"parent_id": "30",
+"tags": PackedStringArray(),
+"text": "No lo encontré xd",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "No lo encontré xd",
+"type": &"dialogue"
+},
+"32": {
+"condition": {
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "global"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "found_mopney"
+}, {
+"type": "comparison",
+"value": "=="
+}, {
+"type": "variable",
+"value": "true"
+}, {
+"type": "colon"
+}])
+},
+"id": "32",
+"next_conditional_id": "41",
+"next_id": "33",
+"next_id_after": "41",
+"parent_id": "29",
+"type": &"condition"
+},
+"33": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "33",
+"next_id": "34",
+"next_id_after": "41",
+"notes": "",
+"parent_id": "32",
+"responses": PackedStringArray("33"),
+"tags": PackedStringArray(),
+"text": "Toma madre",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Toma madre",
+"type": &"response"
+},
+"34": {
+"character": "Tu",
+"character_replacements": Array[Dictionary]([]),
+"id": "34",
+"next_id": "35",
+"notes": "",
+"parent_id": "33",
+"tags": PackedStringArray(),
+"text": "Toma madre",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Toma madre",
+"type": &"dialogue"
+},
+"35": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "35",
+"next_id": "end",
+"notes": "",
+"parent_id": "33",
+"tags": PackedStringArray(),
+"text": "Le das el dinero a tu madre",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Le das el dinero a tu madre",
+"type": &"dialogue"
+},
+"38": {
+"id": "38",
+"next_conditional_id": "41",
+"next_id": "39",
+"next_id_after": "41",
+"type": &"condition"
+},
+"39": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "39",
+"next_id": "40",
+"next_id_after": "40",
+"notes": "",
+"parent_id": "38",
+"responses": PackedStringArray("39"),
+"tags": PackedStringArray(),
+"text": "Toma el dinero madre",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Toma el dinero madre",
+"type": &"response"
+},
+"4": {
+"character": "Tu",
+"character_replacements": Array[Dictionary]([]),
+"id": "4",
+"next_id": "5",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Que necesitas mamá",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Que necesitas mamá",
+"type": &"dialogue"
+},
+"40": {
+"character": "Madre",
+"character_replacements": Array[Dictionary]([]),
+"id": "40",
+"next_id": "end",
+"notes": "",
+"parent_id": "38",
+"tags": PackedStringArray(),
+"text": "Rapido sal a atender al soldado",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Rapido sal a atender al soldado",
+"type": &"dialogue"
+},
+"41": {
+"id": "41",
+"is_snippet": false,
+"next_id": "end",
+"type": &"goto"
+},
+"45": {
+"id": "45",
+"is_snippet": false,
+"next_id": "end",
+"type": &"goto"
+},
+"5": {
+"character": "Madre",
+"character_replacements": Array[Dictionary]([]),
+"id": "5",
+"next_id": "6",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Estan los soldados del mal reclamando el pago diario",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Estan los soldados del mal reclamando el pago diario",
+"type": &"dialogue"
+},
+"6": {
+"character": "Tu",
+"character_replacements": Array[Dictionary]([]),
+"id": "6",
+"next_id": "7",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Esos malditos, no se cansan de hacer cada vez más pobre a todo el pueblo",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Esos malditos, no se cansan de hacer cada vez más pobre a todo el pueblo",
+"type": &"dialogue"
+},
+"7": {
+"character": "Tu",
+"character_replacements": Array[Dictionary]([]),
+"id": "7",
+"next_id": "8",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Estoy seguro que es culpa de ese alcalde",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Estoy seguro que es culpa de ese alcalde",
+"type": &"dialogue"
+},
+"8": {
+"character": "Madre",
+"character_replacements": Array[Dictionary]([]),
+"id": "8",
+"next_id": "9",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Rápido, ve a buscar el dinero, está en mi habitación",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Rápido, ve a buscar el dinero, está en mi habitación",
+"type": &"dialogue"
+},
+"9": {
+"character": "Madre",
+"character_replacements": Array[Dictionary]([]),
+"id": "9",
+"next_id": "12",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Ya no nos queda mucho , si esto sigue así no podremaos pagar la cuota diaria",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Ya no nos queda mucho , si esto sigue así no podremaos pagar la cuota diaria",
+"type": &"dialogue"
+}
+}
+raw_text = "~ mother_conversation
+
+Madre: Hijo rápido ayudame
+Tu: Que necesitas mamá
+Madre: Estan los soldados del mal reclamando el pago diario
+Tu: Esos malditos, no se cansan de hacer cada vez más pobre a todo el pueblo
+Tu: Estoy seguro que es culpa de ese alcalde 
+Madre: Rápido, ve a buscar el dinero, está en mi habitación
+Madre: Ya no nos queda mucho , si esto sigue así no podremaos pagar la cuota diaria
+
+ 
+- Esto no puede seguir asi
+	Tu: Esto no puede seguir asi mamá , no le daremos nuestro dinero
+	Madre: Hijo pero si no entregamos nuestro dinero nos mataran
+	Madre: No quiero ver morir a otro de los nuestro
+	Tu: No me recuerdes la muerte de papá
+	Tu:  Si no actuamos ahora, quien nos va a salvar, tarde o temprano nos matararian igualmente
+	Madre: Es verdad, pero quien nos puede salvar
+	Tu: Nos tendremos que salvar a nosotros mismo
+	Madre:  En ese caso toma, la espada de tu padre, esto te ayudará a enfrentarte al enemigo
+	Tu: Gracias mamá, yo me encargó de atacar y descubrir quién está al mando de todo esto, tu ve a pedir ayuda
+	Madre: Ten mucho cuidado
+	Has recibido la espada de tu padre , tiene muchas muescas en la empuñadura , parece un tanto desgastada,
+	Para usarla presiona el botón E => END
+
+ 
+- Donde esta el dinero ?
+	Madre: Fijate en mi habitación
+if global.found_money == false:
+	- No encontre el dinero
+		Tu:  No lo encontré xd
+	if global.found_mopney == true:
+		- Toma madre
+				Tu: Toma madre
+				Le das el dinero a tu madre => END
+				
+	
+else:
+	- Toma el dinero madre
+	Madre: Rapido sal a atender al soldado => END
+=> END
+
+
+
+=> END"
+metadata/dialogue_manager_version = "2.42.2"

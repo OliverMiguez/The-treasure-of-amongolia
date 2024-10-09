@@ -1,0 +1,42 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_ok20x"]
+
+[resource]
+script = ExtResource("1_ok20x")
+using_states = PackedStringArray()
+titles = {
+"cartel_entrada_pueblo_albatros": "2"
+}
+character_names = PackedStringArray("Cartel")
+first_title = "2"
+lines = {
+"1": {
+"id": "1",
+"next_id": "2",
+"text": "cartel_entrada_pueblo_albatros",
+"type": &"title"
+},
+"2": {
+"character": "Cartel",
+"character_replacements": Array[Dictionary]([]),
+"id": "2",
+"next_id": "3",
+"notes": "",
+"tags": PackedStringArray(),
+"text": "Aldea Albatros",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Aldea Albatros",
+"type": &"dialogue"
+},
+"3": {
+"id": "3",
+"is_snippet": false,
+"next_id": "end",
+"type": &"goto"
+}
+}
+raw_text = "~ cartel_entrada_pueblo_albatros
+Cartel: Aldea Albatros
+=> END"
+metadata/dialogue_manager_version = "2.42.2"

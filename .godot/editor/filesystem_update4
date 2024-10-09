@@ -1,0 +1,8 @@
+res://Scenes/pueblo.tscn
+res://Scripts/player.gd
+res://Scenes/cliff_side.tscn
+res://Scenes/casa_2.tscn
+res://Scenes/casa_pueblo_1.tscn
+res://Scenes/player.tscn
+res://Scenes/gameover.tscn
+res://Scripts/gameover.gd
