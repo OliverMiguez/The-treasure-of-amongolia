@@ -1,0 +1,45 @@
+~ main
+
+Madre: Hijo rápido ayudame
+Tu: Que necesitas mamá
+Madre: Estan los soldados del mal reclamando el pago diario
+Tu: Esos malditos, no se cansan de hacer cada vez más pobre a todo el pueblo
+Tu: Estoy seguro que es culpa de ese alcalde 
+Madre: Rápido, ve a buscar el dinero, está en mi habitación
+Madre: Ya no nos queda mucho , si esto sigue así no podremaos pagar la cuota diaria
+
+ 
+- Esto no puede seguir asi
+	Tu: Esto no puede seguir asi mamá , no le daremos nuestro dinero
+	Madre: Hijo pero si no entregamos nuestro dinero nos mataran
+	Madre: No quiero ver morir a otro de los nuestro
+	Tu: No me recuerdes la muerte de papá
+	Tu:  Si no actuamos ahora, quien nos va a salvar, tarde o temprano nos matararian igualmente
+	Madre: Es verdad, pero quien nos puede salvar
+	Tu: Nos tendremos que salvar a nosotros mismo
+	Madre:  En ese caso toma, la espada de tu padre, esto te ayudará a enfrentarte al enemigo
+	Tu: Gracias mamá, yo me encargó de atacar y descubrir quién está al mando de todo esto, tu ve a pedir ayuda
+	Madre: Ten mucho cuidado
+	Has recibido la espada de tu padre , tiene muchas muescas en la empuñadura , parece un tanto desgastada
+	Para usarla presiona el botón E => END
+
+ 
+- Donde esta el dinero ?
+	Madre: Fijate en mi habitación
+if global.found_money == false:
+	- No encontre el dinero
+		Tu:  No lo encontré xd
+	if global.found_mopney == true:
+		- Toma madre
+				Tu: Toma madre
+				Le das el dinero a tu madre => END
+				
+	
+else:
+	- Toma el dinero madre
+	Madre: Rapido sal a atender al soldado => END
+=> END
+
+
+
+=> END

@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_12"
+type="Resource"
+uid="uid://cqoov6pxbbccb"
+path="res://.godot/imported/guardian.dialogue-c17e140977134e3089151a0eed2350a0.tres"
+
+[deps]
+
+source_file="res://Dialogos/guardian.dialogue"
+dest_files=["res://.godot/imported/guardian.dialogue-c17e140977134e3089151a0eed2350a0.tres"]
+
+[params]
+
+defaults=true

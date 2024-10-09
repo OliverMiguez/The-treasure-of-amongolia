@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_12"
+type="Resource"
+uid="uid://cfe115pyj1wdd"
+path="res://.godot/imported/cartel_entrada_pueblo_albatros.dialogue-fb7ce2ea45662a736c46a78efe1661bf.tres"
+
+[deps]
+
+source_file="res://Dialogos/cartel_entrada_pueblo_albatros.dialogue"
+dest_files=["res://.godot/imported/cartel_entrada_pueblo_albatros.dialogue-fb7ce2ea45662a736c46a78efe1661bf.tres"]
+
+[params]
+
+defaults=true
