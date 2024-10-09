@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cy1ecy0wdo3h1"
+path="res://.godot/imported/House - The Legend of Zelda_ Ocarina of Time Music Extended.mp3-d123d7cf48bfcf9cc3ee3d8b40de7ecf.mp3str"
+
+[deps]
+
+source_file="res://musica/House - The Legend of Zelda_ Ocarina of Time Music Extended.mp3"
+dest_files=["res://.godot/imported/House - The Legend of Zelda_ Ocarina of Time Music Extended.mp3-d123d7cf48bfcf9cc3ee3d8b40de7ecf.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

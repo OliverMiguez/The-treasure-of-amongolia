@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://brs4252h5qigp"
+path="res://.godot/imported/Kakariko Village - The Legend of Zelda_ Ocarina of Time Music Extended.mp3-c4387eda22ffd18f30affeca2c1a640f.mp3str"
+
+[deps]
+
+source_file="res://musica/Kakariko Village - The Legend of Zelda_ Ocarina of Time Music Extended.mp3"
+dest_files=["res://.godot/imported/Kakariko Village - The Legend of Zelda_ Ocarina of Time Music Extended.mp3-c4387eda22ffd18f30affeca2c1a640f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
