@@ -1,0 +1,32 @@
+[gd_scene load_steps=6 format=3 uid="uid://c7pxby33v71oy"]
+
+[ext_resource type="Script" path="res://Scripts/cartel.gd" id="1_0cl46"]
+[ext_resource type="Texture2D" uid="uid://dkkuiwj4remc1" path="res://sprites/objects/objects.png" id="1_inrps"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_02efs"]
+atlas = ExtResource("1_inrps")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_o2bn3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_02efs")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lbqj4"]
+size = Vector2(14, 12)
+
+[node name="cartel" type="CharacterBody2D"]
+script = ExtResource("1_0cl46")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_o2bn3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -1)
+shape = SubResource("RectangleShape2D_lbqj4")

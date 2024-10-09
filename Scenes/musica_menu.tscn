@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://qipak65ov8p7"]
+
+[ext_resource type="AudioStream" uid="uid://du20a2pr7e60c" path="res://musica/Title Theme - The Legend of Zelda_ Ocarina of Time Music Extended.mp3" id="1_w8nca"]
+[ext_resource type="Script" path="res://Scripts/Musica_menu.gd" id="2_fklew"]
+
+[node name="Musica_menu" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_w8nca")
+script = ExtResource("2_fklew")

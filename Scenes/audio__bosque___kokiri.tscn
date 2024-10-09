@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://h80p1av16pfr"]
+
+[ext_resource type="AudioStream" uid="uid://b6ellwudqdsn0" path="res://musica/Zelda_ Ocarina Of Time - Kokiri Forest (1 Hour EXTENDED) (5).mp3" id="1_lnb4u"]
+[ext_resource type="Script" path="res://Scripts/audio _bosque _ kokiri.gd" id="2_puq8n"]
+
+[node name="audio _bosque _ kokiri" type="AudioStreamPlayer"]
+stream = ExtResource("1_lnb4u")
+script = ExtResource("2_puq8n")

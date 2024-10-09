@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cwbl2alfpdl8q"]
+
+[ext_resource type="AudioStream" uid="uid://brs4252h5qigp" path="res://musica/Kakariko Village - The Legend of Zelda_ Ocarina of Time Music Extended.mp3" id="1_yhxpn"]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_yhxpn")
+autoplay = true

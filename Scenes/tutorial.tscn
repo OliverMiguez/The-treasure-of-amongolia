@@ -1,0 +1,73 @@
+[gd_scene load_steps=4 format=3 uid="uid://bdq4kwwlhub58"]
+
+[ext_resource type="Texture2D" uid="uid://7uuju0oi17lc" path="res://images (1).jpeg" id="1_kmp65"]
+[ext_resource type="Script" path="res://Scripts/tutorial.gd" id="1_v6pke"]
+[ext_resource type="FontFile" uid="uid://diobc0d4k7bik" path="res://kenney_kenney-fonts (1)/Fonts/Kenney Mini.ttf" id="3_3qwt1"]
+
+[node name="tutorial" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+script = ExtResource("1_v6pke")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -88.0
+offset_top = -48.0
+offset_right = 872.0
+offset_bottom = 608.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_kmp65")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 832.0
+offset_top = 56.0
+offset_right = 1162.0
+offset_bottom = 166.0
+theme_override_fonts/font = ExtResource("3_3qwt1")
+theme_override_font_sizes/font_size = 80
+text = "Tutorial"
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 248.0
+offset_top = 504.0
+offset_right = 2494.0
+offset_bottom = 728.0
+theme_override_fonts/font = ExtResource("3_3qwt1")
+theme_override_font_sizes/font_size = 60
+text = "Para el movimiento del personaje usa las flechas
+ y para atacar usa el boton E, ademas puedues
+acceder a la mayoria de casas, acercandote a la 
+puerta. Para interactuar con los NPC , acercate a
+ellos y presiona enter, y para pasar entre dialogos 
+utiliza el click izquierdo"
+
+[node name="back" type="Button" parent="."]
+layout_mode = 0
+offset_left = 872.0
+offset_top = 960.0
+offset_right = 1080.0
+offset_bottom = 1068.0
+theme_override_fonts/font = ExtResource("3_3qwt1")
+theme_override_font_sizes/font_size = 80
+text = "Back
+"
+flat = true
+
+[connection signal="pressed" from="back" to="." method="_on_back_pressed"]
