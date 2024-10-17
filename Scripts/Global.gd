@@ -1,5 +1,5 @@
 extends Node
-
+#para cambiar la posicion del personaje en cada cambio de escena
 var nueva_posicion = Vector2()
 #var nueva_posicion_guardian = Vector2()
 
