@@ -20,12 +20,12 @@ func _on_salir_casa_2_body_entered(body):
 	if body.has_method("player"):
 		global.transicion_casa2_salir = true
 
-
+#Iniciar la transicion de cambio de escena de la casa2 al pueblo
 func _on_salir_casa_2_body_exited(body):
 	if body.has_method("player"):
 		global.transicion_casa2_salir = false
 
-
+#Para activar el cambio de escena de casa2 a pueblo
 func change_scene_casa2_salir():
 	if global.transicion_casa2_salir == true :
 		if global.current_scene_casa2_salir == "casa2":
