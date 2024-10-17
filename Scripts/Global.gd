@@ -65,7 +65,7 @@ func finish_changescenes_house():
 		else:
 			current_scene = "world_house"
 
-
+#transicion _cliff a pueblo
 func finish_changescene_pueblo():
 	if transition_pueblo == true:
 		transition_pueblo = false
@@ -73,7 +73,7 @@ func finish_changescene_pueblo():
 			current_scene = "pueblo"
 		else:
 			current_scene = "cliff_pueblo"
-		
+#transicion pueblo cliff	
 func finish_changescene_pueblo_cliff():
 	if transicion_pueblo_cliff == true:
 		transicion_pueblo_cliff = false
@@ -83,7 +83,7 @@ func finish_changescene_pueblo_cliff():
 			current_scene_pueblo_cliff = "pueblo"
 
 
-
+# transicion cliff world
 func finish_changescene_cliff_world():
 	if transition_cliff_world == true:
 		transition_cliff_world = false
@@ -92,7 +92,7 @@ func finish_changescene_cliff_world():
 		else:
 			current_scene_cliff_world = "cliff_side"
 
-#casa 1 pueblo
+# transicion casa 1 pueblo
 func finish_changescene_casa1():
 	if transicion_casa1 == true:
 		transicion_casa1 = false
@@ -101,7 +101,7 @@ func finish_changescene_casa1():
 		else:
 			current_scene_casa1 = "pueblo"
 
-
+#transicion casa1 a pueblo
 func finish_changescene_casa1_salir():
 	if transicion_casa1_salir == true :
 		transicion_casa1_salir = false
@@ -109,7 +109,7 @@ func finish_changescene_casa1_salir():
 			current_scene_casa1 = "pueblo"
 		else:
 			current_scene_casa1_salir ="casa1"
-			
+#transicion pueblo a casa2		
 func finish_changescene_casa2():
 	if transicion_casa2 == true:
 		transicion_casa2 = false
@@ -118,11 +118,11 @@ func finish_changescene_casa2():
 		else:
 			current_scene_casa2 = "pueblo"
 			
-			
+#transicion de casaa2 a pueblo		
 func finish_changescene_casa2_salir():
 	if transicion_casa2_salir == true:
 		transicion_casa2_salir = false
-		if current_scene_casa2_salir == "casa1":
+		if current_scene_casa2_salir == "casa2":
 			current_scene_casa2_salir = "pueblo"
 		else:
 			current_scene_casa2_salir = "casa2"
