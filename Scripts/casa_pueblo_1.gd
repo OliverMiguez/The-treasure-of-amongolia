@@ -1,10 +1,12 @@
 extends Node2D
 
 func _ready():
-	GlobalMusic.stop()
-	KakaricoMusica.stop()
-	MusicaMenu.stop()
-	$AudioStreamPlayer2D.play()
+	GlobalMusic.stop()#Para el autoload de la musica global
+	KakaricoMusica.stop()#Para el autoload de la musica kokiri
+	MusicaMenu.stop()#Para el autoload de la musica del menu
+	$AudioStreamPlayer2D.play()#Inicia el nodo de audio de la escena
+	
+	#Para modificar la posicion del personaje
 	if global.nueva_posicion != Vector2():
 		position = global.nueva_posicion
 		global.nueva_posicion = Vector2()
