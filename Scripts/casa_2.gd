@@ -1,5 +1,5 @@
 extends Node2D
-
+#almacena todas las variables
 func _ready():
 	GlobalMusic.stop()
 	KakaricoMusica.stop()
@@ -7,13 +7,14 @@ func _ready():
 	$AudioStreamPlayer2D.play()
 	
 	
-	
+	#cambia la posicion del personaje en el cambio de escenas
 	if global.nueva_posicion != Vector2():
 		position = global.nueva_posicion
 		global.nueva_posicion = Vector2()
 
 	
 func _process(_delta):
+#Inicia la transicion de cambio de escena a la casa dos cuando entra en el area 2d 
 	change_scene_casa2_salir()
 func _on_salir_casa_2_body_entered(body):
 	if body.has_method("player"):
